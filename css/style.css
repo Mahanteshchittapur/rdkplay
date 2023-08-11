@@ -13,11 +13,11 @@
 
 
 body {
-/*     display: flex; */
+    display: flex;
     position: relative;
-/*     justify-content: center; */
+    justify-content: center;
     font-family: sans-serif;
-/*     align-items: center; */
+    align-items: center;
     line-height: 1;
     font-weight: 400;
     color: white;
