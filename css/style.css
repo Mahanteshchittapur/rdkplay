@@ -210,11 +210,11 @@ body {
     justify-content: space-between;
  }
 
- /* .video-container {
+ .video-container {
    position: relative;
    max-width: 800px;
    margin: 0 auto;
-} */
+} 
 /* 
 .dash-video {
    width: 100%;
