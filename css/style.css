@@ -23,7 +23,7 @@ body {
     color: white;
     background-color: #000;
 }
-video {
+#video {
     max-width: 100%;
     height: auto;
     display: none;
@@ -221,7 +221,7 @@ video {
    height: auto;
 }
 
-.playbutton {
+#playbutton {
    position: absolute;
    top: 50%;
    left: 50%;
