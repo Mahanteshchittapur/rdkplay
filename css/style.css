@@ -3,6 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+#container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+
 
 body {
     position: relative;
@@ -11,6 +19,11 @@ body {
     font-weight: 400;
     color: white;
     background-color: #000;
+}
+video {
+    max-width: 100%;
+    height: auto;
+    display: none;
 }
 
 
