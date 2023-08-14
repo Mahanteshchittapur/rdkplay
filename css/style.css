@@ -24,7 +24,7 @@
 
 
 body {
-    //display: flex;
+    display: flex;
     position: relative;
    // justify-content: center;
     font-family: sans-serif;
