@@ -12,7 +12,7 @@ body {
     color: white;
     background-color: #000;
 }
-.video {
+video {
     max-width: 100%;
     height: auto;
     display: none;
@@ -22,7 +22,7 @@ body {
     width: 100%;
     height: 100%;
 }
-.button {
+button {
     background-color: #007bff;
     color: white;
     border: none;
@@ -30,33 +30,18 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+button:focus {
+    outline: none;
+    border: 2px solid #007bff;
+}
 /* .video-card video-container {
    text-align: center;
    padding: 20px;
    border: 1px solid #ccc;
    background-color: white;
 } */
-.carousel-container {
-    position: relative; /* Add this to make sure the container is positioned correctly */
-    z-index: 0; 
-    width: 100%;
-    height: 450px;
-    padding: 1rem 0;
-    overflow-x: hidden;
-    margin-top: 0.1rem;/* Set a lower z-index to place it below the video */
-}
 
-.video-card-container {
-    position: relative; /* Add this to make sure the container is positioned correctly */
-    z-index: 1;
-    width: 92%;
-    margin: auto;
-    height: 10vw;
-    display: flex;
-    margin-top: 1rem;
-    margin-bottom: 20px;
-    justify-content: space-between;/* Set a higher z-index to place it above other content */
-}
+
 
 
 
@@ -127,7 +112,26 @@ body {
 
 
 
-
+.video-card-container {
+    position: relative; /* Add this to make sure the container is positioned correctly */
+    z-index: 1;
+    width: 92%;
+    margin: auto;
+    height: 10vw;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    justify-content: space-between;/* Set a higher z-index to place it above other content */
+}
+.carousel-container {
+    position: relative; /* Add this to make sure the container is positioned correctly */
+    z-index: 0; 
+    width: 100%;
+    height: 450px;
+    padding: 1rem 0;
+    overflow-x: hidden;
+    margin-top: 0.1rem;/* Set a lower z-index to place it below the video */
+}
  .carousel {
     display: flex;
     width: 92%;
