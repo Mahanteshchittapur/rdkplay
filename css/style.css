@@ -5,12 +5,12 @@
 }
 
 body {
-    position: relative;
-    font-family: sans-serif;
-    line-height: 1;
-    font-weight: 400;
-    color: white;
-    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #080808;
 }
 #video {
     max-width: 100%;
@@ -214,6 +214,9 @@ button:focus {
     margin-top: 1rem;
     margin-bottom: 20px;
     justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
  }
 
  /* .video-container {
