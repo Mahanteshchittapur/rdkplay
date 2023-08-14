@@ -10,6 +10,17 @@
     background-color: white;
 }
 
+ .video-card-container {
+    position: relative;
+    width: 92%;
+    margin: auto;
+    height: 10vw;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    justify-content: space-between;
+ }
+
 
 
 body {
@@ -199,16 +210,6 @@ body {
     color: white;
  }
 
- .video-card-container {
-    position: relative;
-    width: 92%;
-    margin: auto;
-    height: 10vw;
-    display: flex;
-    margin-top: 1rem;
-    margin-bottom: 20px;
-    justify-content: space-between;
- }
 
  .video-container {
    position: relative;
