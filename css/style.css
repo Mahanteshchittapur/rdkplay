@@ -31,7 +31,7 @@ body {
     color: white;
     background-color: #000;
 }
-.video {
+#video {
     max-width: 100%;
     height: auto;
     display: none;
